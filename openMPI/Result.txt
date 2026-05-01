@@ -1,0 +1,195 @@
+========================================================
+Memulai Pengujian Otomatis MPI Parallel Merge Sort
+========================================================
+
+========================================================
+MENGUJI DATASET: data_10000.txt
+========================================================
+[Menjalankan dengan 1 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_10000.txt
+Total Data Diurutkan : 10000 elemen
+Jumlah Proses (Rank) : 1 proses
+Waktu Komputasi      : 0.002396 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999928.576454  -999828.871364  -999815.307210  -999660.569043  -999631.319090  -999425.456291  -999188.120605  -998914.136586  -998856.207744  -998716.577144
+
+[10 Angka Terakhir (Terbesar)]:
+997974.014500  998564.936825  998625.338558  998890.270520  999144.014036  999144.833755  999190.087869  999211.493623  999799.105126  999815.657018
+
+
+[Menjalankan dengan 2 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_10000.txt
+Total Data Diurutkan : 10000 elemen
+Jumlah Proses (Rank) : 2 proses
+Waktu Komputasi      : 0.000872 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999928.576454  -999828.871364  -999815.307210  -999660.569043  -999631.319090  -999425.456291  -999188.120605  -998914.136586  -998856.207744  -998716.577144
+
+[10 Angka Terakhir (Terbesar)]:
+997974.014500  998564.936825  998625.338558  998890.270520  999144.014036  999144.833755  999190.087869  999211.493623  999799.105126  999815.657018
+
+
+[Menjalankan dengan 4 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_10000.txt
+Total Data Diurutkan : 10000 elemen
+Jumlah Proses (Rank) : 4 proses
+Waktu Komputasi      : 0.000698 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999928.576454  -999828.871364  -999815.307210  -999660.569043  -999631.319090  -999425.456291  -999188.120605  -998914.136586  -998856.207744  -998716.577144
+
+[10 Angka Terakhir (Terbesar)]:
+997974.014500  998564.936825  998625.338558  998890.270520  999144.014036  999144.833755  999190.087869  999211.493623  999799.105126  999815.657018
+
+
+[Menjalankan dengan 8 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_10000.txt
+Total Data Diurutkan : 10000 elemen
+Jumlah Proses (Rank) : 8 proses
+Waktu Komputasi      : 0.001327 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999928.576454  -999828.871364  -999815.307210  -999660.569043  -999631.319090  -999425.456291  -999188.120605  -998914.136586  -998856.207744  -998716.577144
+
+[10 Angka Terakhir (Terbesar)]:
+997974.014500  998564.936825  998625.338558  998890.270520  999144.014036  999144.833755  999190.087869  999211.493623  999799.105126  999815.657018
+
+
+========================================================
+MENGUJI DATASET: data_100000.txt
+========================================================
+[Menjalankan dengan 1 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_100000.txt
+Total Data Diurutkan : 100000 elemen
+Jumlah Proses (Rank) : 1 proses
+Waktu Komputasi      : 0.005497 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999987.195893  -999981.041201  -999898.359173  -999894.366649  -999893.177114  -999860.183136  -999860.103087  -999844.108531  -999829.146568  -999821.486391
+
+[10 Angka Terakhir (Terbesar)]:
+999845.816030  999860.372106  999887.735010  999937.577417  999938.644271  999950.478410  999957.157142  999977.718616  999984.803892  999995.687714
+
+
+[Menjalankan dengan 2 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_100000.txt
+Total Data Diurutkan : 100000 elemen
+Jumlah Proses (Rank) : 2 proses
+Waktu Komputasi      : 0.003868 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999987.195893  -999981.041201  -999898.359173  -999894.366649  -999893.177114  -999860.183136  -999860.103087  -999844.108531  -999829.146568  -999821.486391
+
+[10 Angka Terakhir (Terbesar)]:
+999845.816030  999860.372106  999887.735010  999937.577417  999938.644271  999950.478410  999957.157142  999977.718616  999984.803892  999995.687714
+
+
+[Menjalankan dengan 4 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_100000.txt
+Total Data Diurutkan : 100000 elemen
+Jumlah Proses (Rank) : 4 proses
+Waktu Komputasi      : 0.004211 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999987.195893  -999981.041201  -999898.359173  -999894.366649  -999893.177114  -999860.183136  -999860.103087  -999844.108531  -999829.146568  -999821.486391
+
+[10 Angka Terakhir (Terbesar)]:
+999845.816030  999860.372106  999887.735010  999937.577417  999938.644271  999950.478410  999957.157142  999977.718616  999984.803892  999995.687714
+
+
+[Menjalankan dengan 8 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_100000.txt
+Total Data Diurutkan : 100000 elemen
+Jumlah Proses (Rank) : 8 proses
+Waktu Komputasi      : 0.004627 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999987.195893  -999981.041201  -999898.359173  -999894.366649  -999893.177114  -999860.183136  -999860.103087  -999844.108531  -999829.146568  -999821.486391
+
+[10 Angka Terakhir (Terbesar)]:
+999845.816030  999860.372106  999887.735010  999937.577417  999938.644271  999950.478410  999957.157142  999977.718616  999984.803892  999995.687714
+
+
+========================================================
+MENGUJI DATASET: data_1000000.txt
+========================================================
+[Menjalankan dengan 1 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_1000000.txt
+Total Data Diurutkan : 1000000 elemen
+Jumlah Proses (Rank) : 1 proses
+Waktu Komputasi      : 0.066634 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999999.001739  -999996.967600  -999995.582442  -999992.920356  -999990.846909  -999987.911483  -999985.751453  -999982.449884  -999981.207621  -999978.961066
+
+[10 Angka Terakhir (Terbesar)]:
+999982.902402  999985.383024  999987.843583  999988.329185  999988.699757  999989.335380  999994.276842  999994.519632  999995.637825  999997.859404
+
+
+[Menjalankan dengan 2 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_1000000.txt
+Total Data Diurutkan : 1000000 elemen
+Jumlah Proses (Rank) : 2 proses
+Waktu Komputasi      : 0.042751 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999999.001739  -999996.967600  -999995.582442  -999992.920356  -999990.846909  -999987.911483  -999985.751453  -999982.449884  -999981.207621  -999978.961066
+
+[10 Angka Terakhir (Terbesar)]:
+999982.902402  999985.383024  999987.843583  999988.329185  999988.699757  999989.335380  999994.276842  999994.519632  999995.637825  999997.859404
+
+
+[Menjalankan dengan 4 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_1000000.txt
+Total Data Diurutkan : 1000000 elemen
+Jumlah Proses (Rank) : 4 proses
+Waktu Komputasi      : 0.027247 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999999.001739  -999996.967600  -999995.582442  -999992.920356  -999990.846909  -999987.911483  -999985.751453  -999982.449884  -999981.207621  -999978.961066
+
+[10 Angka Terakhir (Terbesar)]:
+999982.902402  999985.383024  999987.843583  999988.329185  999988.699757  999989.335380  999994.276842  999994.519632  999995.637825  999997.859404
+
+
+[Menjalankan dengan 8 Prosesor...]
+====== Laporan Eksekusi (Parallel Merge Sort) ======
+File Dataset         : data_1000000.txt
+Total Data Diurutkan : 1000000 elemen
+Jumlah Proses (Rank) : 8 proses
+Waktu Komputasi      : 0.022162 detik
+====================================================
+
+[10 Angka Pertama (Terkecil)]:
+-999999.001739  -999996.967600  -999995.582442  -999992.920356  -999990.846909  -999987.911483  -999985.751453  -999982.449884  -999981.207621  -999978.961066
+
+[10 Angka Terakhir (Terbesar)]:
+999982.902402  999985.383024  999987.843583  999988.329185  999988.699757  999989.335380  999994.276842  999994.519632  999995.637825  999997.859404
+
+
+Pengujian Selesai! Tekan tombol apa saja untuk keluar.
+Press any key to continue . . .
